@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>327_ePDUbe1LAoc.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\327_ePDUbe1LAoc.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>850</width>
+		<height>603</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>261</xmin>
+			<ymin>69</ymin>
+			<xmax>735</xmax>
+			<ymax>456</ymax>
+		</bndbox>
+	</object>
+</annotation>

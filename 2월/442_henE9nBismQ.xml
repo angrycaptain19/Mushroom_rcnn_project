@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>442_henE9nBismQ.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\442_henE9nBismQ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>531</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>88</ymin>
+			<xmax>469</xmax>
+			<ymax>326</ymax>
+		</bndbox>
+	</object>
+</annotation>

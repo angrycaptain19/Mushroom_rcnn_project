@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>472_vxTtgNhg7lc.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\472_vxTtgNhg7lc.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>536</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>234</xmin>
+			<ymin>71</ymin>
+			<xmax>626</xmax>
+			<ymax>391</ymax>
+		</bndbox>
+	</object>
+</annotation>

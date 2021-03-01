@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>333_4AIR0Tp73Zo.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\333_4AIR0Tp73Zo.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>950</width>
+		<height>713</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>399</xmin>
+			<ymin>90</ymin>
+			<xmax>811</xmax>
+			<ymax>532</ymax>
+		</bndbox>
+	</object>
+</annotation>

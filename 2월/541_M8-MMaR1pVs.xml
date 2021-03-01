@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>541_M8-MMaR1pVs.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\541_M8-MMaR1pVs.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>69</ymin>
+			<xmax>584</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>432_X7VZzNR_mrA.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\432_X7VZzNR_mrA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>44</xmin>
+			<ymin>17</ymin>
+			<xmax>735</xmax>
+			<ymax>495</ymax>
+		</bndbox>
+	</object>
+</annotation>
