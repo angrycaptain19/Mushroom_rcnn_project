@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>056_eqlYiQel-4Y.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\056_eqlYiQel-4Y.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>570</width>
+		<height>379</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>21</ymin>
+			<xmax>472</xmax>
+			<ymax>354</ymax>
+		</bndbox>
+	</object>
+</annotation>

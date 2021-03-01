@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>049_l9PKdyes2lk.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\049_l9PKdyes2lk.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>252</xmin>
+			<ymin>210</ymin>
+			<xmax>641</xmax>
+			<ymax>658</ymax>
+		</bndbox>
+	</object>
+</annotation>

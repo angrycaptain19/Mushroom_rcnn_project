@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>073_7cmeDAddxfw.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\073_7cmeDAddxfw.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>210</xmin>
+			<ymin>64</ymin>
+			<xmax>547</xmax>
+			<ymax>677</ymax>
+		</bndbox>
+	</object>
+</annotation>

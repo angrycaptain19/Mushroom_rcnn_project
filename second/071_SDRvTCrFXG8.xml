@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Amanita</folder>
+	<filename>071_SDRvTCrFXG8.jpg</filename>
+	<path>C:\Users\tah05\Desktop\Amanita\071_SDRvTCrFXG8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>798</width>
+		<height>598</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>me</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>262</xmin>
+			<ymin>45</ymin>
+			<xmax>621</xmax>
+			<ymax>542</ymax>
+		</bndbox>
+	</object>
+</annotation>
