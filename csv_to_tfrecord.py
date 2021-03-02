@@ -71,22 +71,42 @@ def create_tf_example(array,img_path):
         class_text.append('Mushroom')
         classes.append(1)
 
-    tf_example = tf.train.Example(features=tf.train.Feature(feature={
-        'image/height': dataset_util.int64_feature(height),
-        'image/width': dataset_util.int64_feature(width),
-        'image/filename': dataset_util.bytes_feature(name.encode('utf8')),
-        'image/source_id': dataset_util.bytes_feature(name.encode('utf8')),
-        'image/encoded': dataset_util.bytes_feature(encoded_image),
-        'image/format': dataset_util.bytes_feature('jpg'.encode('utf8')),
-        'image/object/bbox/xmin': dataset_util.float_list_feature(xmin),
-        'image/object/bbox/xmax': dataset_util.float_list_feature(xmax),
-        'image/object/bbox/ymin': dataset_util.float_list_feature(ymin),
-        'image/object/bbox/ymax': dataset_util.float_list_feature(ymax),
-        'image/object/class/text': dataset_util.bytes_list_feature(class_text.encode('utf8')),
-        'image/object/class/label': dataset_util.int64_list_feature(classes),
-    }))
-
-    return tf_example
+    return tf.train.Example(
+        features=tf.train.Feature(
+            feature={
+                'image/height': dataset_util.int64_feature(height),
+                'image/width': dataset_util.int64_feature(width),
+                'image/filename': dataset_util.bytes_feature(
+                    name.encode('utf8')
+                ),
+                'image/source_id': dataset_util.bytes_feature(
+                    name.encode('utf8')
+                ),
+                'image/encoded': dataset_util.bytes_feature(encoded_image),
+                'image/format': dataset_util.bytes_feature(
+                    'jpg'.encode('utf8')
+                ),
+                'image/object/bbox/xmin': dataset_util.float_list_feature(
+                    xmin
+                ),
+                'image/object/bbox/xmax': dataset_util.float_list_feature(
+                    xmax
+                ),
+                'image/object/bbox/ymin': dataset_util.float_list_feature(
+                    ymin
+                ),
+                'image/object/bbox/ymax': dataset_util.float_list_feature(
+                    ymax
+                ),
+                'image/object/class/text': dataset_util.bytes_list_feature(
+                    class_text.encode('utf8')
+                ),
+                'image/object/class/label': dataset_util.int64_list_feature(
+                    classes
+                ),
+            }
+        )
+    )
 
 
 # coco type csv to
@@ -104,14 +124,12 @@ def tfrecord(csv_path, img_path):
 
         row = picture_info(name,minx,maxx,miny,maxy)
         if len(stack_list) is 0:
-            stack_list.append(row)
-        elif stack_list[0].name is row.name:
-            stack_list.append(row)
-        else:
+            pass
+        elif stack_list[0].name is not row.name:
             tf_example = create_tf_example(stack_list,img_path)
             writer.write(tf_example.SerializeToString())
             stack_list.clear()
-            stack_list.append(row)
+        stack_list.append(row)
     writer.close()
 
 tfrecord('csv_path','img_path')
